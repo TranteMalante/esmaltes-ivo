@@ -183,14 +183,14 @@ a:hover { color:#009999; }
 
 .navbar-toggler:focus { box-shadow: none; }
 .navbar-brand {
-    color: #3399CC;
+    color: #2B2C2E;
     font-size: 1.6rem;
 }
 
 .navbar-brand i { font-size: 2rem; }
 
 .tm-hero {
-    min-height: 200px;
+    min-height: 300px;
     background: transparent;
 }
 
@@ -198,6 +198,7 @@ a:hover { color:#009999; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-74 { margin-bottom: 74px; }
 .tm-mb-90 { margin-bottom: 90px; }
+.tm-mt-160 { margin-top: 160px; }
 .tm-text-primary { color: #2B2C2E; }
 .tm-text-secondary { color: #CC6699; }
 a.tm-text-primary:hover { color:#666666; }
