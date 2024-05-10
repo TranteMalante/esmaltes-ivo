@@ -258,8 +258,8 @@ a.tm-text-primary:hover { color:#666666; }
   
   button {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    /*top: 50%;*/
+    transform: translateY(-10%);
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -429,6 +429,9 @@ p, .tm-text-gray { color: #999; }
 /*---------------*/
 
 figure.effect-ming {
+    display: flex;
+    justify-content: center;
+    height: 100%;
 	background: transparent;
 }
 
