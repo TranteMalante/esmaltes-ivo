@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glazeshare</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../css/templatemo-style.css">
+    <script src="https://kit.fontawesome.com/608c109889.js" crossorigin="anonymous"></script>
+<!--
+    
+TemplateMo 556 Catalog-Z
+
+https://templatemo.com/tm-556-catalog-z
+
+-->
+</head>
+<body>
+    <!-- Page Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fa-solid fa-mug-saucer"></i>
+                Glazeshare
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-1 active" aria-current="page" href="../index.html">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-2" href="../about.html">Información</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="../img/banner.png">
+    </div>
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary"><b>ANDRÉS-1</b></h2>
+        </div>
+        <div class="row tm-mb-90">            
+            <div class="carousel">
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="slides">
+                  <img src="../img/esmaltes/Andres/IMG_lat.jpg" alt="Image" class="img-fluid">
+                  <img src="../img/esmaltes/Andres/IMG_1618.jpg" alt="Image" class="img-fluid">
+                </div>
+                <script src="../js/slide.js"></script>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+              </div>
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">
+                    <div class="mb-4">
+                        <h3 class="tm-text-gray-dark mb-3">Fórmula</h3>
+                        <p>
+                            Base8
+                            <br>60 Feldespato potásico
+                            <br>20 Dolomita
+                            <br>20 Carbonato de Bario
+                            <br>
+                            <br>3 Carbonato de Litio
+                            <br>1,5 Carbonato de Cobre
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="tm-text-gray-dark mb-3">Temperatura</h3>
+                        <p>Cono Orton 7 (1250ºC) </p>
+                    </div>
+                    <div>
+                        <h3 class="tm-text-gray-dark mb-3">Observaciones</h3>
+                        <p>Azul mate de bario. <br>Apto para uso alimentario. <br>Autor: Andrés Soberbio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- container-fluid, tm-container-content -->
+    
+    <script src="../js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+    </script>
+</body>
+</html>
