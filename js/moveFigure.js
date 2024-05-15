@@ -2,6 +2,7 @@ let slideIndex = 0;
 
 function moveSlide(n) {
   const slides = document.querySelectorAll('.slides img');
+  const captions = document.querySelectorAll('.slides figcaption');
   slideIndex += n;
   
   if (slideIndex < 0) {
@@ -13,8 +14,10 @@ function moveSlide(n) {
   
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = 'none';
+    captions[i].style.display = 'none';
   }
   
   slides[slideIndex].style.display = 'block';
+  captions[slideIndex].style.display = 'block';
 }
 moveSlide(0);
